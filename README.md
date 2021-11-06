@@ -11,7 +11,7 @@
    
    *[Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
    
-   *[Nested Layouts}(#Nested Layouts)
+   *[Nested Layouts](#Nested Layouts)
    
    *[Bug report Form](#Bug report Form)
    
