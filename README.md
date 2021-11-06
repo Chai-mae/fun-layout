@@ -9,13 +9,13 @@
 
    [Introduction](#Introduction)
    
-   [1)Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
+   [1)Experimenting with QHBOXLayout](#1)Experimenting with QHBOXLayout)
    
-   [2)Nested Layouts](#Nested Layouts)
+   [2)Nested Layouts](#2)Nested Layouts)
    
-   [3)Bug report Form](#Bug report Form)
+   [3)Bug report Form](#3)Bug report Form)
    
-   [4)Grid Layout](#Grid Layout)
+   [4)Grid Layout](#4)Grid Layout)
    
 
 **<h2>Introduction</h2>**
