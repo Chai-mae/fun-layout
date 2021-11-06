@@ -32,36 +32,25 @@ In this class we  create a label , a Text Edit and a Push button and then we dis
 Here is the code:
                                            
                                            
-  ```javascript
-                             void Dialog1::createWidgets(){
-                             
-                             label=new QLabel("Name");
-                             
-                             edit=new QLineEdit;
-                             
-                             search =new QPushButton("Search");
-                             
-                             this->setWindowTitle("HBoxLayout");
-                             
-                             }
-                             
-                             void Dialog1::placeWidgets(){
-                             
-                             auto layout=new QHBoxLayout;
-                             
-                             this->setLayout(layout);
+ ```javascript
+   class Dialog1 : public QWidget
+{
+    Q_OBJECT
+public:
+    explicit Dialog1(QWidget *parent = nullptr);
 
-                             
-                             layout->addWidget(label);
-                             
-                             layout->addWidget(edit);
-                             
-                             layout->addWidget(search);
-                             
-                             }
+protected:
+    QLineEdit *edit;
+    QLabel *label;
+    QPushButton * button;
+protected:
+    void createWidget();
+    void placeWidget();
+    void makeConnexions();
 
-                                           l
-      ```                                       
+}; ```
+
+                                                                               
 
 **<h2>2)Nested Layouts</h2>**
 
