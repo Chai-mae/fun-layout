@@ -5,17 +5,17 @@
 
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
 
-<h2>**Table of contents**</h2>
+**<h2>Table of contents</h2>**
 
-   *[Introduction](#Introduction)
+   [Introduction](#Introduction)
    
-   *[Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
+   [Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
    
-   *[Nested Layouts](#Nested Layouts)
+   [Nested Layouts](#Nested Layouts)
    
-   *[Bug report Form](#Bug report Form)
+   [Bug report Form](#Bug report Form)
    
-   *[Grid Layout](#Grid Layout)
+   [Grid Layout](#Grid Layout)
    
 
 **<h2>Introduction</h2>**
@@ -33,7 +33,7 @@ There is lot of layouts but in our tp we will focus just on :
 In the **[Exo1FunWithLayout.zip](https://github.com/Chai-mae/fun-layout/files/7491281/Exo1FunWithLayout.zip)** project we have 4 classes.
 
 
-**<h2>1)Experimenting with QHBOXLayout</h2>**:
+**<h2>1)Experimenting with QHBOXLayout</h2>**
 
 First class is named Dialog1
 
@@ -294,7 +294,7 @@ higher-level abstraction for a QHBoxLayout containing buttons, taking care of or
 you can expect more classes  like it in future Qt releases.
 
 
-<h2>**Made by:**</h2>
+**<h2>Made by:</h2>**
 <h3>Biyaye Chaimae</h3>
 <h3>Ikram Belmadani</h3>
 
