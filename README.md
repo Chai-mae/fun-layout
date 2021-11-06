@@ -6,11 +6,17 @@
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
 
 <h2>**Table of contents**</h2>
+
    *[Introduction](#Introduction)
+   
    *[Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
+   
    *[Nested Layouts}(#Nested Layouts)
+   
    *[Bug report Form](#Bug report Form)
+   
    *[Grid Layout](#Grid Layout)
+   
 
 **<h2>Introduction</h2>**
 
