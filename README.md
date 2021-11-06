@@ -9,7 +9,7 @@
 
    [Introduction](#Introduction)
    
-   [Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
+   [Experimenting with QHBOXLayout](#1)Experimenting with QHBOXLayout)
    
    [Nested Layouts](#Nested Layouts)
    
