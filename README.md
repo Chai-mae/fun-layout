@@ -7,15 +7,15 @@
 
 **<h2>Table of contents</h2>**
 
-   *[Introduction](#Introduction)
+   [Introduction](#Introduction)
    
-   *[1-Experimenting with QHBOXLayout](#1-Experimenting-with-QHBOXLayout)
+   [1-Experimenting with QHBOXLayout](#1-Experimenting-with-QHBOXLayout)
    
-   *[2-Nested Layouts](#2-Nested-Layouts)
+   [2-Nested Layouts](#2-Nested-Layouts)
    
-   *[3-Bug report Form](#3-Bug-report-Form)
+   [3-Bug report Form](#3-Bug-report-Form)
    
-   *[4-Grid Layout](#4-Grid-Layout)
+   [4-Grid Layout](#4-Grid-Layout)
    
    [Conclusion](#Conclusion)
    
