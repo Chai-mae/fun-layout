@@ -146,7 +146,7 @@ Here is the code:
                                        }
   ```
   
-**<h2>3-Bug report Form </h2>**  
+**<h2>3-Bug report Form</h2>**  
  
  The third class is called dialog3.
  
