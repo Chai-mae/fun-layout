@@ -70,7 +70,7 @@ In this class we create a button,a check box in a vertical layout and label ,lin
 
 ![Screenshot_58](https://user-images.githubusercontent.com/93831197/140621311-0bec74b5-d548-42c1-8739-ee9f475351ed.png)
  
-We added also a function named makeconnecxions() to exit when we clicked on the button. 
+We added also a function named makeconnecxion() to exit when we clicked on the button. 
 
 Here is the code:
       
@@ -117,10 +117,14 @@ Here is the code:
                                        
                                        }
                                        
- 2)**Bug report Form**                                      
+ 2)**Bug report Form**  
+ 
+ the third class called dialog3.
+ 
+ In this class we create a form to report a problem using the form layout as follows :
                                        
                                        
-                                       
+ ![Screenshot_59](https://user-images.githubusercontent.com/93831197/140622591-d532066b-eacb-424d-9a80-2771c94e0328.png)                                
                                        
                                        
                                        
@@ -170,6 +174,79 @@ Here is the code:
 
 
 }
+
+**Grid Layout**
+
+the 4th class named dialog4.
+
+
+
+
+                                         
+                                         void dialog4::createWidgets(){
+                                         
+                                         lcdnumber = new QLCDNumber;
+                                         
+                                         gridlayout= new QGridLayout;
+
+                                         
+                                         //creating the buttons
+                                         
+                                         for(int i=0; i < 10; i++)
+                                         
+                                         {
+                                         
+                                         
+                                         numbers.push_back(new QPushButton(QString::number(i)));
+                                         
+                                         numbers.back()->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+                                         
+                                         numbers.back()->resize(sizeHint().width(), sizeHint().height());
+                                         
+                                         }
+                                        //enter button
+                                         
+                                         enterbutton= new QPushButton("Enter",this);
+                                         
+                                         enterbutton->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Fixed);
+                                         
+                                         enterbutton->resize(sizeHint().width(), sizeHint().height());
+
+
+                                         }
+                                         
+                                         void dialog4::placeWidgets(){
+                                         
+                                            //adding the lcd display
+                                          
+                                          gridlayout->addWidget(lcdnumber,0,0,1,3);
+                                        
+                                           //adding the numbers' buttons
+                                          
+                                          for(int i=1; i <10; i++)
+                                          
+                                          gridlayout->addWidget(numbers[i], (i+2)/3, (i+2)%3);
+                                          
+                                          //adding the button 0
+                                          
+                                          gridlayout->addWidget(numbers[0], 4, 0);
+                                          
+                                          //adding the enter button
+                                          
+                                          gridlayout->addWidget(enterbutton,4,1,1,2);
+
+
+                                          setLayout(gridlayout);
+
+                                          
+                                          setWindowTitle("Numeric KeyPad");
+                                          
+                                          lcdnumber->setSegmentStyle(QLCDNumber::Filled);
+                                          
+                                          lcdnumber->setMinimumSize(150, 80);
+                                          
+                                          }
+
  
 
 
