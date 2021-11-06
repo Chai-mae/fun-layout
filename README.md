@@ -1,6 +1,6 @@
 
   **<h1  >Fun with layouts</h1>**
-  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
+  - ![#f03c15](**<h1  >Fun with layouts</h1>**) `#f03c15`
 
 
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
