@@ -120,7 +120,7 @@ Here is the code:
                                           connect(b2, &QPushButton::clicked, this, exit);
                                        
                                        }
-                                       ```
+ ```                                     
                                        
                                        
                                        
