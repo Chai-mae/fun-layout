@@ -21,7 +21,7 @@ There is lot of layouts but in our tp we will focus just on :
 In the **Exo1FunWithLayout.zip** project we have 4 classes.
 
 
-**<h2>1)Experimenting with QHBOXLayout</h2>**:
+**<h2>1)Experimenting with QHBOXLayout</h2>**
 
 First class is named Dialog1
 
@@ -126,7 +126,7 @@ Here is the code:
                                        
 **<h2> 3)Bug report Form </h2>**  
  
- the third class is called dialog3.
+ The third class is called dialog3.
  
  In this class we create a form to report a problem using the form layout as follows :
                                        
@@ -200,7 +200,7 @@ In this class we construct a numeric keybord using the grid layout as follows :
 
 ![Screenshot_56](https://user-images.githubusercontent.com/93831197/140622819-01bba217-0a4b-4185-8aff-d516b9f776c4.png)
 
-here is the code:
+Here is the code:
 
 ```javascript
 
