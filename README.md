@@ -181,6 +181,10 @@ the 4th class named dialog4.
 
 
 
+![Screenshot_56](https://user-images.githubusercontent.com/93831197/140622819-01bba217-0a4b-4185-8aff-d516b9f776c4.png)
+
+
+
 
                                          
                                          void dialog4::createWidgets(){
