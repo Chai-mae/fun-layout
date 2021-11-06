@@ -21,7 +21,7 @@ In the **Exo1FunWithLayout.zip** project we have 4 classes.
 
 1)**Experimenting with QHBOXLayout**:
 
-First class named Dialog1
+First class is named Dialog1
 
 In this class we  create a label , a Text Edit and a Push button and then we display the in a horizantal layout as follows:
 
@@ -70,7 +70,7 @@ Here is the code:
 
 2)**Nested Layouts**
 
-The second class named Dialog2
+The second class is named Dialog2
 
 In this class we create a button,a check box in a vertical layout and label ,line edit in a horizontal layout as follows:
 
@@ -125,7 +125,7 @@ Here is the code:
                                        
  2)**Bug report Form**  
  
- the third class called dialog3.
+ the third class is called dialog3.
  
  In this class we create a form to report a problem using the form layout as follows :
                                        
@@ -183,7 +183,7 @@ Here is the code:
 
 **Grid Layout**
 
-the 4th class named dialog4.
+The 4th class  is named dialog4.
 
 In this class we construct a numeric keybord using the grid layout as follows :
 
