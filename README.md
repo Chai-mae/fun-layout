@@ -24,7 +24,7 @@ There is lot of layouts but in our tp we will focus just on :
                                QGridLayout:Lays out widgets in a grid
                                
                                
-In the **Exo1FunWithLayout.zip** project we have 4 classes.
+In the **[Exo1FunWithLayout.zip](https://github.com/Chai-mae/fun-layout/files/7491281/Exo1FunWithLayout.zip)** project we have 4 classes.
 
 
 **<h2>1)Experimenting with QHBOXLayout</h2>**:
