@@ -9,4 +9,10 @@ There is lot of layouts but in our tp we will focus just on :
                                QFormLayout :Manages forms of input widgets and their associated labels
                                QGridLayout:Lays out widgets in a grid
                                
+                               
+                               
 1)**Experimenting with QHBOXLayout**:
+
+In this class we  create a label , a Text Edit and a Push button and then we display the in a horizantal layout as follows:
+
+
