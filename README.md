@@ -1,4 +1,4 @@
-**<h4 color = red>Fun with layouts</h4>**
+**<h1 style="color:blue;">Fun with layouts</h1>**
 
 
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
