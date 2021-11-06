@@ -1,10 +1,12 @@
 
-  **<h1>Fun with layouts</h1>**
+  **<h1 align= "center" >Fun with layouts</h1>**
 
 
 
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
 
+<h2>**Table of contents**</h2>
+   *[Introduction](#Introduction)
 
 **<h2>Introduction</h2>**
 
@@ -18,7 +20,7 @@ There is lot of layouts but in our tp we will focus just on :
                                QGridLayout:Lays out widgets in a grid
                                
                                
-In the **Exo1FunWithLayout.zip** project we have 4 classes.
+In the *[Exo1FunWithLayout.zip]* project we have 4 classes.
 
 
 **<h2>1)Experimenting with QHBOXLayout</h2>**:
@@ -33,25 +35,48 @@ Here is the code:
                                            
                                            
  ```javascript
-   class Dialog1 : public QWidget
-{
-    Q_OBJECT
-public:
-    explicit Dialog1(QWidget *parent = nullptr);
+                                  Dialog1::Dialog1(QWidget *parent) : QWidget(parent)
+                                  
+                                  {
+                                  
+                                  createWidget();
+                                  
+                                  placeWidget();
 
-protected:
-    QLineEdit *edit;
-    QLabel *label;
-    QPushButton * button;
-protected:
-    void createWidget();
-    void placeWidget();
-    void makeConnexions();
 
-}; 
+                                   }
+                                   void Dialog1::createWidget(){
+
+
+                                  label = new QLabel("Name:");
+
+                                  
+                                  edit = new QLineEdit;
+                                  
+                                  button= new QPushButton("Search");
+                                  
+                                  this->setWindowTitle("HBoxLayout test");
+                                  
+                                  }
+                                  
+                                  void Dialog1::placeWidget(){
+                                  
+                                  
+                                  QHBoxLayout* mainlayout = new QHBoxLayout;
+                                  
+                                  this->setLayout(mainlayout);
+                                  
+                                  mainlayout->addWidget(label);
+                                  
+                                  mainlayout->addWidget(edit);
+                                  
+                                  mainlayout->addWidget(button);
+                                  
+                                  }
 
                                                                                
-
+ ```
+ 
 **<h2>2)Nested Layouts</h2>**
 
 The second class is named Dialog2
@@ -63,7 +88,8 @@ In this class we create a button,a check box in a vertical layout and label ,lin
 We added also a function named makeconnecxion() to exit when we clicked on the button. 
 
 Here is the code:
-      
+
+ ```javascript      
                                        void Dialog2::placeWidgets(){
                                        
                                           auto topleftlayout= new QHBoxLayout;
@@ -106,18 +132,20 @@ Here is the code:
                                           connect(b2, &QPushButton::clicked, this, exit);
                                        
                                        }
-                                       
+  ```
+  
 **<h2> 3)Bug report Form </h2>**  
  
- the third class is called dialog3.
+ The third class is called dialog3.
  
  In this class we create a form to report a problem using the form layout as follows :
                                        
                                        
  ![Screenshot_59](https://user-images.githubusercontent.com/93831197/140622591-d532066b-eacb-424d-9a80-2771c94e0328.png)                                
                                        
-                                       
-                                       
+  Here is the code:
+  
+   ```javascript                                     
                                        void dialog3::placeWidgets(){
                                        
                                          auto *formlayout =new QFormLayout;
@@ -164,6 +192,8 @@ Here is the code:
 
 
 }
+ ```
+ 
 
 **<h2>4)Grid Layout</h2>**
 
@@ -174,11 +204,13 @@ In this class we construct a numeric keybord using the grid layout as follows :
 
 
 ![Screenshot_56](https://user-images.githubusercontent.com/93831197/140622819-01bba217-0a4b-4185-8aff-d516b9f776c4.png)
+ 
+Here is the code:
 
 
 
 
-                                         
+ ```javascript                                         
                                          void dialog4::createWidgets(){
                                          
                                          lcdnumber = new QLCDNumber;
@@ -242,7 +274,8 @@ In this class we construct a numeric keybord using the grid layout as follows :
                                           lcdnumber->setMinimumSize(150, 80);
                                           
                                           }
-
+ ```
+ 
  **<h2>Conclusion</h2>**
  
  
@@ -251,4 +284,7 @@ higher-level abstraction for a QHBoxLayout containing buttons, taking care of or
 you can expect more classes  like it in future Qt releases.
 
 
+<h2>**Made by:**</h2>
+<h3>Biyaye Chaimae</h3>
+<h3>Ikram Belmadani</h3>
 
