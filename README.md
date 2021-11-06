@@ -21,7 +21,7 @@ There is lot of layouts but in our tp we will focus just on :
 In the **Exo1FunWithLayout.zip** project we have 4 classes.
 
 
-1)**<h2>Experimenting with QHBOXLayout</h2>**:
+**<h2>1)Experimenting with QHBOXLayout</h2>**:
 
 First class is named Dialog1
 
@@ -30,6 +30,7 @@ In this class we  create a label , a Text Edit and a Push button and then we dis
 ![Screenshot_57](https://user-images.githubusercontent.com/93831197/140621409-18ccddf4-37cb-4fa1-8c3c-c8da32df86da.png)
 
 Here is the code:
+                                           '''javascript
 
                                            Dialog1::Dialog1(QWidget *parent) : QWidget(parent)
                                            
