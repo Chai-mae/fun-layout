@@ -1,5 +1,5 @@
 
-  **<h1 align= "center" color = "#FF5733">Fun with layouts</h1>**
+  **<h1>Fun with layouts</h1>**
 
 
 
