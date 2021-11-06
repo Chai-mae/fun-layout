@@ -76,6 +76,7 @@ In this class we create a button,a check box in a vertical layout and label ,lin
 We added also a function named makeconnecxion() to exit when we clicked on the button. 
 
 Here is the code:
+```javascript
       
                                        void Dialog2::placeWidgets(){
                                        
@@ -119,6 +120,9 @@ Here is the code:
                                           connect(b2, &QPushButton::clicked, this, exit);
                                        
                                        }
+                                       ```
+                                       
+                                       
                                        
 **<h2> 3)Bug report Form </h2>**  
  
@@ -127,7 +131,12 @@ Here is the code:
  In this class we create a form to report a problem using the form layout as follows :
                                        
                                        
- ![Screenshot_59](https://user-images.githubusercontent.com/93831197/140622591-d532066b-eacb-424d-9a80-2771c94e0328.png)                                
+ ![Screenshot_59](https://user-images.githubusercontent.com/93831197/140622591-d532066b-eacb-424d-9a80-2771c94e0328.png)     
+ 
+ Here is the code:
+ 
+ ```javascript
+
                                        
                                        
                                        
@@ -177,6 +186,9 @@ Here is the code:
 
 
 }
+```
+
+
 
 **<h2>4)Grid Layout</h2>**
 
@@ -187,6 +199,11 @@ In this class we construct a numeric keybord using the grid layout as follows :
 
 
 ![Screenshot_56](https://user-images.githubusercontent.com/93831197/140622819-01bba217-0a4b-4185-8aff-d516b9f776c4.png)
+
+here is the code:
+
+```javascript
+
 
 
 
@@ -255,6 +272,8 @@ In this class we construct a numeric keybord using the grid layout as follows :
                                           lcdnumber->setMinimumSize(150, 80);
                                           
                                           }
+```
+
 
  **<h2>Conclusion</h2>**
  
