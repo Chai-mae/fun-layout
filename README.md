@@ -1,10 +1,10 @@
-**<h1  style="text-align:center;">Fun with layouts</h1>**
+**<h1>Fun with layouts</h1>**
 
 
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
 
 
-**Introduction**
+**<h2>Introduction</h2>**
 
 Qt includes a set of layout management classes that are used to describe how widgets are laid out in an application's user interface. These layouts automatically position and resize widgets when the amount of space available for them changes, ensuring that they are consistently arranged and that the user interface as a whole remains usable.
 
@@ -19,7 +19,7 @@ There is lot of layouts but in our tp we will focus just on :
 In the **Exo1FunWithLayout.zip** project we have 4 classes.
 
 
-1)**Experimenting with QHBOXLayout**:
+1)**<h2>Experimenting with QHBOXLayout</h2>**:
 
 First class is named Dialog1
 
@@ -68,7 +68,7 @@ Here is the code:
                                            
                                            }
 
-2)**Nested Layouts**
+2)**<h2>Nested Layouts</h2>**
 
 The second class is named Dialog2
 
@@ -123,7 +123,7 @@ Here is the code:
                                        
                                        }
                                        
- 2)**Bug report Form**  
+ 2)**<h2>Bug report Form </h2>**  
  
  the third class is called dialog3.
  
@@ -181,7 +181,7 @@ Here is the code:
 
 }
 
-**Grid Layout**
+**<h2>Grid Layout</h2>**
 
 The 4th class  is named dialog4.
 
@@ -259,7 +259,12 @@ In this class we construct a numeric keybord using the grid layout as follows :
                                           
                                           }
 
+ **<h2>Conclusion</h2>**
  
+ 
+Qt is good at providing the fundamental mechanisms necessary to develop powerful cross-platform applications. What we see now is that it is also gradually expanding to provide higher-level APIs that encapsulate platform -specific idioms. An example of this is QDialogButtonBox(used in the class dialog3), which was introduced in Qt 4.2 as a 
+higher-level abstraction for a QHBoxLayout containing buttons, taking care of ordering them according to the platform's guidelines. QFormLayout follows in this tradition, and 
+you can expect more classes  like it in future Qt releases.
 
 
 
