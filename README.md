@@ -7,6 +7,10 @@
 
 <h2>**Table of contents**</h2>
    *[Introduction](#Introduction)
+   *[Experimenting with QHBOXLayout](#Experimenting with QHBOXLayout)
+   *[Nested Layouts}(#Nested Layouts)
+   *[Bug report Form](#Bug report Form)
+   *[Grid Layout](#Grid Layout)
 
 **<h2>Introduction</h2>**
 
@@ -20,7 +24,7 @@ There is lot of layouts but in our tp we will focus just on :
                                QGridLayout:Lays out widgets in a grid
                                
                                
-In the *[Exo1FunWithLayout.zip]* project we have 4 classes.
+In the **Exo1FunWithLayout.zip** project we have 4 classes.
 
 
 **<h2>1)Experimenting with QHBOXLayout</h2>**:
