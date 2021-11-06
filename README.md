@@ -9,13 +9,15 @@
 
    [Introduction](#Introduction)
    
-   [1)Experimenting with QHBOXLayout](#1)Experimenting with QHBOXLayout)
+   [1-Experimenting with QHBOXLayout](#1-Experimenting with QHBOXLayout)
    
-   [2)Nested Layouts](#2)Nested Layouts)
+   [2-Nested Layouts](#2-Nested Layouts)
    
-   [3)Bug report Form](#3)Bug report Form)
+   [3-Bug report Form](#3-Bug report Form)
    
-   [4)Grid Layout](#4)Grid Layout)
+   [4-Grid Layout](#4-Grid Layout)
+   
+    [Conclusion](#Conclusion)
    
 
 **<h2>Introduction</h2>**
@@ -33,7 +35,7 @@ There is lot of layouts but in our tp we will focus just on :
 In the **[Exo1FunWithLayout.zip](https://github.com/Chai-mae/fun-layout/files/7491281/Exo1FunWithLayout.zip)** project we have 4 classes.
 
 
-**<h2>1)Experimenting with QHBOXLayout</h2>**
+**<h2> 1-Experimenting with QHBOXLayout</h2>**
 
 First class is named Dialog1
 
@@ -87,7 +89,7 @@ Here is the code:
                                                                                
  ```
  
-**<h2>2)Nested Layouts</h2>**
+**<h2>2-Nested Layouts</h2>**
 
 The second class is named Dialog2
 
@@ -144,7 +146,7 @@ Here is the code:
                                        }
   ```
   
-**<h2> 3)Bug report Form </h2>**  
+**<h2> 3-Bug report Form </h2>**  
  
  The third class is called dialog3.
  
@@ -205,7 +207,7 @@ Here is the code:
  ```
  
 
-**<h2>4)Grid Layout</h2>**
+**<h2> 4-Grid Layout</h2>**
 
 The 4th class  is named dialog4.
 
