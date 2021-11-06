@@ -1,6 +1,6 @@
 
-                                                            **<h1  >Fun with layouts</h1>**
-  
+  **<h1  >Fun with layouts</h1>**
+  - ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 
 
 ![fun-with-grid-3-wp](https://user-images.githubusercontent.com/93831197/140622923-d26010ba-6c96-4cf7-8c00-d6800f309a56.jpg)
@@ -21,7 +21,7 @@ There is lot of layouts but in our tp we will focus just on :
 In the **Exo1FunWithLayout.zip** project we have 4 classes.
 
 
-**<h2>1)Experimenting with QHBOXLayout</h2>**
+**<h2>1)Experimenting with QHBOXLayout</h2>**:
 
 First class is named Dialog1
 
@@ -32,38 +32,25 @@ In this class we  create a label , a Text Edit and a Push button and then we dis
 Here is the code:
                                            
                                            
-  ```javascript
-                             void Dialog1::createWidgets(){
-                             
-                             label=new QLabel("Name");
-                             
-                             edit=new QLineEdit;
-                             
-                             search =new QPushButton("Search");
-                             
-                             this->setWindowTitle("HBoxLayout");
-                             
-                             }
-                             
-                             void Dialog1::placeWidgets(){
-                             
-                             auto layout=new QHBoxLayout;
-                             
-                             this->setLayout(layout);
+ ```javascript
+   class Dialog1 : public QWidget
+{
+    Q_OBJECT
+public:
+    explicit Dialog1(QWidget *parent = nullptr);
 
-                             
-                             layout->addWidget(label);
-                             
-                             layout->addWidget(edit);
-                             
-                             layout->addWidget(search);
-                             
-                             } 
-                             
-  ```
-                                           
-                                            
+protected:
+    QLineEdit *edit;
+    QLabel *label;
+    QPushButton * button;
+protected:
+    void createWidget();
+    void placeWidget();
+    void makeConnexions();
 
+}; 
+
+                                                                               
 
 **<h2>2)Nested Layouts</h2>**
 
@@ -76,7 +63,6 @@ In this class we create a button,a check box in a vertical layout and label ,lin
 We added also a function named makeconnecxion() to exit when we clicked on the button. 
 
 Here is the code:
-```javascript
       
                                        void Dialog2::placeWidgets(){
                                        
@@ -120,23 +106,15 @@ Here is the code:
                                           connect(b2, &QPushButton::clicked, this, exit);
                                        
                                        }
- ```                                     
-                                       
-                                       
                                        
 **<h2> 3)Bug report Form </h2>**  
  
- The third class is called dialog3.
+ the third class is called dialog3.
  
  In this class we create a form to report a problem using the form layout as follows :
                                        
                                        
- ![Screenshot_59](https://user-images.githubusercontent.com/93831197/140622591-d532066b-eacb-424d-9a80-2771c94e0328.png)     
- 
- Here is the code:
- 
- ```javascript
-
+ ![Screenshot_59](https://user-images.githubusercontent.com/93831197/140622591-d532066b-eacb-424d-9a80-2771c94e0328.png)                                
                                        
                                        
                                        
@@ -186,9 +164,6 @@ Here is the code:
 
 
 }
-```
-
-
 
 **<h2>4)Grid Layout</h2>**
 
@@ -199,11 +174,6 @@ In this class we construct a numeric keybord using the grid layout as follows :
 
 
 ![Screenshot_56](https://user-images.githubusercontent.com/93831197/140622819-01bba217-0a4b-4185-8aff-d516b9f776c4.png)
-
-Here is the code:
-
-```javascript
-
 
 
 
@@ -272,8 +242,6 @@ Here is the code:
                                           lcdnumber->setMinimumSize(150, 80);
                                           
                                           }
-```
-
 
  **<h2>Conclusion</h2>**
  
