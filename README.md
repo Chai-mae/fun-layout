@@ -30,7 +30,7 @@ In this class we  create a label , a Text Edit and a Push button and then we dis
 ![Screenshot_57](https://user-images.githubusercontent.com/93831197/140621409-18ccddf4-37cb-4fa1-8c3c-c8da32df86da.png)
 
 Here is the code:
-                                           '''javascript
+                                           ''' javascript
 
                                            Dialog1::Dialog1(QWidget *parent) : QWidget(parent)
                                            
@@ -69,9 +69,9 @@ Here is the code:
                                            
                                            mainlayout->addWidget(button);
                                            
-                                           }
+                                           }'''
 
-2)**<h2>Nested Layouts</h2>**
+**<h2>2)Nested Layouts</h2>**
 
 The second class is named Dialog2
 
@@ -126,7 +126,7 @@ Here is the code:
                                        
                                        }
                                        
- 2)**<h2>Bug report Form </h2>**  
+**<h2> 3)Bug report Form </h2>**  
  
  the third class is called dialog3.
  
@@ -184,7 +184,7 @@ Here is the code:
 
 }
 
-**<h2>Grid Layout</h2>**
+**<h2>4)Grid Layout</h2>**
 
 The 4th class  is named dialog4.
 
