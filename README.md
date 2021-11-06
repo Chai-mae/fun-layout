@@ -35,11 +35,11 @@ There is lot of layouts but in our tp we will focus just on :
 In the **[Exo1FunWithLayout.zip](https://github.com/Chai-mae/fun-layout/files/7491281/Exo1FunWithLayout.zip)** project we have 4 classes.
 
 
-**<h2> 1-Experimenting with QHBOXLayout</h2>**
+**<h2>1-Experimenting with QHBOXLayout</h2>**
 
-First class is named Dialog1
+The first class is named Dialog1
 
-In this class we  create a label , a Text Edit and a Push button and then we display the in a horizantal layout as follows:
+In this class we  create a label , a Text Edit and a Push button and them we display the in a horizantal layout as follows:
 
 ![Screenshot_57](https://user-images.githubusercontent.com/93831197/140621409-18ccddf4-37cb-4fa1-8c3c-c8da32df86da.png)
 
@@ -97,7 +97,7 @@ In this class we create a button,a check box in a vertical layout and label ,lin
 
 ![Screenshot_58](https://user-images.githubusercontent.com/93831197/140621311-0bec74b5-d548-42c1-8739-ee9f475351ed.png)
  
-We added also a function named makeconnecxion() to exit when we clicked on the button. 
+We added also a function named makeconnecxion() to exit when we click on the button. 
 
 Here is the code:
 
@@ -146,7 +146,7 @@ Here is the code:
                                        }
   ```
   
-**<h2> 3-Bug report Form </h2>**  
+**<h2>3-Bug report Form </h2>**  
  
  The third class is called dialog3.
  
@@ -207,7 +207,7 @@ Here is the code:
  ```
  
 
-**<h2> 4-Grid Layout</h2>**
+**<h2>4-Grid Layout</h2>**
 
 The 4th class  is named dialog4.
 
